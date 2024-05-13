@@ -1,0 +1,53 @@
+/**
+  * This file is landingpage.css
+  * It will only be used for landingpage.html
+  */
+div.row, div.row > div  {
+  border: none;
+}
+
+#indicator {
+  background: rgb(27,99,159);
+  background: linear-gradient(90deg, rgba(27,99,159,1) 0%, rgba(71,118,164,1) 52%, rgba(67,109,151,1) 93%);
+}
+
+#about {
+  background-color: #33918e;
+}
+
+#contain {
+  height: 100%;
+  border: none;
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+#project {
+  background-color: #101a53;
+}
+
+div > h2 {
+  color: white;
+  padding: 5px;
+}
+
+#center {
+  text-align: center;
+  width: auto;
+}
+
+.about {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#fixed {
+  width: 100%;
+  object-fit: contain;
+}
+
+#aboutproject {
+  width: 50%;
+  object-fit: contain;
+}
+

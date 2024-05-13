@@ -1,0 +1,54 @@
+#info {
+    height: fit-content;
+    margin-bottom: 60px;
+}
+
+#title {
+  background: rgb(27,99,159);
+  background: linear-gradient(90deg, rgba(27,99,159,1) 0%, rgba(71,118,164,1) 52%, rgba(67,109,151,1) 93%);
+}
+
+.center {
+  text-align: center;
+  width: auto;
+}
+
+h3 {
+  color: white;
+  text-decoration: underline;
+  width: auto;
+}
+
+.daily {
+  background-color: #e1e1ed;
+  border: 3px solid #151719;
+  margin: 15px auto;
+  font-size: 1.5em;
+  width: fit-content;
+  padding: 10px;
+}
+
+.daily p {
+  color: black;
+  font-size: 1.0em;
+}
+
+.daily img {
+  width: 100px;
+}
+
+#date {
+  background-color: #4d4d6e;
+  color: white;
+}
+
+address {
+  width: fit-content;
+  padding: 5px;
+  border: 2px solid #151719;
+}
+
+.detail {
+  border-top: 3px #151719 solid;
+  border-bottom: 3px #151719 solid;
+}

@@ -1,0 +1,48 @@
+/**
+  * This is the theme.css file.
+  * This file's purpose is to help create a consisent
+  * theme for this project.
+  * Reminder: All individual css files must include
+  * 'margin-bottom: 60px;'
+  * in the css for the final div/div that is right before the footer.
+  * This allows the footer to be a sticky footer.
+  */
+
+body {
+  background-image: url("https://www.bankrate.com/2019/03/22142110/How-to-trade-stocks.jpg");
+  background-size: cover;
+  backdrop-filter: blur(10px);
+}
+
+div {
+  border: 0.05em solid rgb(33,37,41, 0.5);
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+}
+
+h3 {
+  color: #f3f3f3;
+  width: fit-content;
+  border-radius: 25px;
+  background: rgb(4,74,119);
+  background: linear-gradient(90deg, rgba(4,74,119,1) 0%, rgba(11,59,145,1) 93%);
+  padding: 10px;
+}
+
+p {
+  text-indent: 0.75em;
+  color: white;
+}
+
+/* This particular css is used to create a sticky footer as seen in the sticky footer example from Bootstrap */
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: rgb(33,37,41, 0.5);
+}

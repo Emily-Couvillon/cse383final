@@ -1,0 +1,34 @@
+#title {
+  background: rgb(27,99,159);
+  background: linear-gradient(90deg, rgba(27,99,159,1) 0%, rgba(71,118,164,1) 52%, rgba(67,109,151,1) 93%);
+  color: white;
+}
+
+table {
+  table-layout:fixed;
+  width:100%;
+}
+
+.contain {
+    height: 100vh;
+    margin-bottom: 60px;
+}
+
+.contain2{
+  height: 100%;
+   margin-bottom: 60px;
+}
+
+p.json {
+    overflow-wrap: break-word;
+    visibility: hidden;
+    width: fit-content;
+}
+
+label {
+  width: fit-content;
+}
+
+input:checked + label > p.json {
+    visibility: visible;
+}

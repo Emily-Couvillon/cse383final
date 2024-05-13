@@ -1,0 +1,37 @@
+/**
+  * This is file is called stocks.css.
+  * Only used for stocks.html and stocks.php
+  */
+
+#info {
+  height: 100vh;
+  margin-bottom: 60px;
+}
+
+#important {
+  background-color: #159938;
+  border-radius: 5px;
+}
+
+.buttonBoxes {
+  background-color: #101a53;
+  margin: 20px auto;
+  font-size: 1.25em;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#Bdetails {
+  font-size: 1.0em;
+  padding: 20px;
+}
+
+#Bnews {
+  font-size: 1.0em;
+  padding: 20px;
+}
+
+#title {
+  background: rgb(27,99,159);
+  background: linear-gradient(90deg, rgba(27,99,159,1) 0%, rgba(71,118,164,1) 52%, rgba(67,109,151,1) 93%);
+}

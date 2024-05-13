@@ -1,0 +1,62 @@
+/*Used in detail.php*/
+#info {
+    height: fit-content;
+    margin-bottom: 60px;
+}
+
+#title {
+  background: rgb(27,99,159);
+  background: linear-gradient(90deg, rgba(27,99,159,1) 0%, rgba(71,118,164,1) 52%, rgba(67,109,151,1) 93%);
+}
+
+.article {
+    border-radius: 5px;
+}
+
+.article .title {
+  width: fit-content;
+  padding: 4px;
+  background-color: #51ad26;
+  border-radius: 5px;
+  font-size: 1.25em;
+}
+
+.article .author {
+  width: fit-content;
+  padding: 4px;
+  color: #2d2d2e;
+  background-color: #79d1be;
+  border-radius: 5px;
+}
+
+.article p {
+  color: black;
+  text-indent: 0;
+}
+
+.article img {
+    float: right;
+    width: 4%;
+    border: 0.75px solid #2d2d2e;
+    border-radius: 3px;
+}
+
+.article a {
+  padding: 4px;
+  background-color: #5877c7;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.article a:hover {
+  padding: 4px;
+  background-color: #40599c;
+  color: whitesmoke;
+  text-decoration: underline;
+  border-radius: 5px;
+}
+
+#news-info {
+    border: none;
+}
