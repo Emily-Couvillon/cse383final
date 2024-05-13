@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Landing Page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="../cse383_final/css/landingpage.css" rel="stylesheet">
+        <link href="../cse383_final/css/theme.css" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../cse383_final/landingpage.html">Landing Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../cse383_final/stocks.html">Stocks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../cse383_final/stock-history-and-display.html">Stock History & Display</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="container" id="indicator">
+            <h2 id="center">Landing Page</h2>
+        </div>
+        <div class="container" id="contain">
+            <div class="container" id="about">
+                <h3>About Me</h3>
+                <p> My name is Emily Couvillon. This page was created in the Spring Semester of 2023 for CSE 383 and this is my final project for the class. This project will include a landing page (where you are now), a page detailing stocks, and a page detailing the history and displays of stocks.</p>
+                <p>I am a Software Engineering major at Miami Univeristy and I am currently a sophmore. I became interested in coding after taking
+                    some fairly rudimentary classes in middle school and a website development course through Sinclair. The website development course
+                    was the first class I had where I created a small website on my own. That website was created using only HTML and CSS files. I hope
+                    that after completing this project that I can use my new knowledge to recreate the website in my free time. Below are some photos from my Spring Break.
+                </p>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-3">
+                        <img src="../cse383_final/images/ECvac.jpg"  class="rounded img-responsive about mx-auto d-block" alt="Emily at the Route 66 Museum">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="../cse383_final/images/ECvac2.jpg" class="rounded img-responsive mx-auto d-block" id="fixed" alt="Emily at the Las Vegas Airport">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="../cse383_final/images/ECgc.jpg" class="rounded img-responsive about mx-auto d-block" alt="Snowy Grand Canyon">
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="project">
+                <h3>About This Project</h3>
+                <p>This page uses a navbar to allow a user to navigate the website. This navbar is available on all three pages and collapses when the viewport is shrunk. The stock page allows a user to select a stock from a dropdown. Once this is done: the page will display the stock and a user can then find further information via a 'Details' button or a 'News' button. The third page allows a user to check the history of stock searches and then displays these results in a neat table.</p>
+                <div class="row">
+                    <div class="col-md">
+                        <img src="https://u.osu.edu/duska.7/files/2017/04/stock-market-3-21gyd1b.jpg" id="aboutproject" class="rounded img-responsive about mx-auto d-block" alt="Stock image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <footer class="footer fixed-bottom">
+            <span class="text-light">Copyright © Emily Couvillon 2023</span>
+        </footer>
+    </body>
+</html>
